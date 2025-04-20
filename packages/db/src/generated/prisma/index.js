@@ -172,11 +172,12 @@ const config = {
     "db"
   ],
   "activeProvider": "postgresql",
+  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": "postgresql://neondb_owner:npg_2JXtDm4VeWOn@ep-lively-king-a57uamg1-pooler.us-east-2.aws.neon.tech/ab?sslmode=require"
+        "value": null
       }
     }
   },
